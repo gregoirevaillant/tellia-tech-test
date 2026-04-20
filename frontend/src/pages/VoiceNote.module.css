@@ -1,0 +1,149 @@
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 0 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #3a7d52;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 28px;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #888;
+  margin: 0 0 36px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  padding: 10px 24px;
+  background: #3a7d52;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnPrimary:hover {
+  background: #2f6643;
+}
+
+.btnDanger {
+  padding: 10px 24px;
+  background: #e85d4a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnDanger:hover {
+  background: #cf4a38;
+}
+
+.btnSecondary {
+  padding: 10px 24px;
+  background: #f0f0f0;
+  color: #444;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnSecondary:hover {
+  background: #e5e5e5;
+}
+
+.recording {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #e85d4a;
+  font-weight: 500;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e85d4a;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.preview {
+  margin-top: 28px;
+  padding: 20px 22px;
+  border-radius: 12px;
+  background: #f7f7f7;
+}
+
+.duration {
+  font-size: 13px;
+  color: #999;
+  margin: 0 0 12px;
+}
+
+.audio {
+  width: 100%;
+}
+
+.statusSuccess {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #3a7d52;
+  font-weight: 500;
+}
+
+.statusError {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #e85d4a;
+}
+
+.statusSaving {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
